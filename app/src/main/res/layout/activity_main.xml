@@ -10,10 +10,11 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:numColumns="2"
         android:gravity="center"
-        android:verticalSpacing="10dp"
-        android:horizontalSpacing="10dp"/>
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:verticalSpacing="10dp" />
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"

@@ -2,7 +2,6 @@ package scu.miomin.com.lrucachedemo;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -14,9 +13,9 @@ import java.util.List;
 
 
 public class MainActivity extends Activity {
+
     private GridView mGridView;
     private List<String> datas;
-    private Toolbar mToolbar;
     private PhotoAdapter mAdapter;
 
     @Override
@@ -36,7 +35,6 @@ public class MainActivity extends Activity {
                 Toast.makeText(MainActivity.this, "position=" + position + ",id=" + id, Toast.LENGTH_SHORT).show();
             }
         });
-
     }
 
     public void initDatas() {
